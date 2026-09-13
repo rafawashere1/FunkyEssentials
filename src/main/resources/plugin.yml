@@ -1,0 +1,39 @@
+name: FunkyEssentials
+description: '${description}'
+version: '${version}'
+
+main: org.funkymonks.funkyessentials.FunkyEssentialsPlugin
+api-version: '26.2'
+load: POSTWORLD
+
+authors: [ Rafael, Alan ]
+website: https://github.com/rafawashere1/FunkyEssentials
+
+commands:
+  teleport:
+    description: Teleporta jogadores.
+    aliases:
+      - tp
+    usage: /teleport <jogador> [jogador]
+
+  gamemode:
+    description: Altera o modo de jogo do jogador.
+    aliases:
+      - gm
+    usage: /gamemode <modo> [jogador]
+
+permissions:
+  funkyessentials.admin:
+    description: Permite acesso administrativo aos comandos do FunkyEssentials.
+    default: op
+    children:
+      funkyessentials.teleport: true
+      funkyessentials.gamemode: true
+
+  funkyessentials.teleport:
+    description: Permite usar o comando /teleport.
+    default: op
+
+  funkyessentials.gamemode:
+    description: Permite alterar o modo de jogo.
+    default: op

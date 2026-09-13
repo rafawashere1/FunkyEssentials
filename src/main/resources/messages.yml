@@ -1,0 +1,18 @@
+General:
+  Prefix: "<dark_gray>[<gold>FunkyEssentials</gold>]</dark_gray> "
+  In-Game-Only: "<red>Este comando só pode ser usado dentro do jogo."
+  No-Permission: "<red>Você não tem permissão para usar este comando."
+  Player-Offline: "<red>O jogador <white><player></white> não está online."
+
+Teleport:
+  Usage: "<red>Uso correto: <white>/tp <jogador> [jogador]</white>"
+  Teleported-Self: "<green>Você foi teleportado até <white><player></white>."
+  Teleported-Other: "<green>Você teleportou <white><player1></white> até <white><player2></white>."
+  Failed: "<red>Não foi possível concluir o teleporte."
+
+Gamemode:
+  Usage: "<red>Uso: <white>/gm <modo> [jogador]</white><newline><yellow>Modos: <white>survival, creative, adventure ou spectator</white>"
+  Invalid: "<red>Modo de jogo inválido."
+  Changed-Self: "<green>Seu modo de jogo foi alterado para <white><mode></white>."
+  Changed-Other: "<green>O modo de jogo de <white><player></white> foi alterado para <white><mode></white>."
+  Change-Failed: "<red>Não foi possível alterar o modo de jogo."
